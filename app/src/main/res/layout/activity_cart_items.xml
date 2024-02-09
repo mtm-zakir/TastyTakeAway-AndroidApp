@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/white"
+    tools:context=".CartItemsActivity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:ignore="ExtraText">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:background="@color/pink"
+            android:id="@+id/tvTotalItems"
+            android:text="Cart Items"
+            android:fontFamily="@font/handlee"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:textSize="36sp"
+            android:gravity="center_horizontal"
+            android:layout_height="50dp"
+            tools:ignore="MissingConstraints" />
+
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/cartItemsRecyclerView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tvTotalItems"
+            android:nestedScrollingEnabled="false"/>
+
+        <TextView android:id="@+id/tvSubtotal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/cartItemsRecyclerView"
+            android:layout_margin="10dp"
+            android:fontFamily="@font/comme_regular"
+            android:textColor="@color/darkpink"
+            android:text="Sub total"
+            android:textSize="18sp"
+            android:textStyle="bold"/>
+
+        <TextView android:id="@+id/tvSubtotalAmount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/cartItemsRecyclerView"
+            android:layout_margin="10dp"
+            android:fontFamily="@font/comme_regular"
+            android:text="LKR.0.0"
+            android:textColor="@color/darkpink"
+            android:textSize="18sp"
+            android:textStyle="bold"/>
+
+        <TextView android:id="@+id/tvDeliveryCharge"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/comme_regular"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tvSubtotal"
+            android:layout_margin="10dp"
+            android:text="Delivery Charge"
+            android:textColor="@color/darkpink"
+            android:textSize="18sp"
+            android:textStyle="bold"/>
+
+        <TextView android:id="@+id/tvDeliveryChargeAmount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tvSubtotal"
+            android:layout_margin="10dp"
+            android:fontFamily="@font/comme_regular"
+            android:text="LKR.0.0"
+            android:textColor="@color/darkpink"
+            android:textSize="18sp"
+            android:textStyle="bold"/>
+
+        <TextView android:id="@+id/tvTotal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tvDeliveryCharge"
+            android:layout_margin="10dp"
+            android:fontFamily="@font/comme_bold"
+            android:text="Total"
+            android:textColor="@color/darkpink"
+            android:textSize="18sp"
+            android:textStyle="bold"/>
+
+        <TextView android:id="@+id/tvTotalAmount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tvDeliveryCharge"
+            android:layout_margin="10dp"
+            android:text="LKR.0.0"
+            android:fontFamily="@font/comme_bold"
+            android:textSize="18sp"
+            android:textColor="@color/darkpink"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/btnCheckout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:text="Checkout"
+            android:textSize="20sp"
+            android:textColor="@color/white"
+            android:fontFamily="@font/comme_bold"
+            android:gravity="center"
+            android:padding="10dp"
+            android:layout_margin="10dp"
+            android:background="@drawable/main_button"
+            app:layout_constraintTop_toBottomOf="@+id/tvTotal" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="@drawable/pinkbackground"
+    tools:context=".WelcomeActivity">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:padding="20dp">
+
+
+        <ImageView
+            android:id="@+id/logo"
+            android:layout_width="wrap_content"
+            android:layout_height="110dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="80dp"
+            app:srcCompat="@drawable/spoonlogo" />
+
+        <TextView
+            android:id="@+id/nameShop"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="@font/kaushan_script"
+            android:text=" TASTY TAKE AWAY "
+            android:textColor="@color/pink"
+            android:textSize="34sp"
+            android:textStyle="bold"
+            android:layout_marginTop="20dp"/>
+
+        <TextView
+            android:id="@+id/moto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Taste the Real Taste"
+            android:textColor="@color/black_text"
+            android:fontFamily="@font/handlee"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:layout_marginTop="2dp"/>
+
+        <Button
+            android:id="@+id/started_button"
+            android:layout_width="195dp"
+            android:background="@drawable/main_button"
+            android:layout_height="60dp"
+            android:layout_marginTop="120dp"
+            android:layout_gravity="center"
+            android:backgroundTint="@color/pink"
+            android:text="Get Started"
+            android:textSize="20sp"
+            android:fontFamily="@font/comme_bold"/>
+
+    </LinearLayout>
+
+</ScrollView>

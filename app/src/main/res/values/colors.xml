@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#f18db2</color>
+    <color name="purple_500">#d40a62</color> //Button and Sub Title and Confirm Exit Action Color
+    <color name="purple_700">#d40a62</color> //Title Bar Top
+    <color name="teal_200">#d40a62</color> //Cursor Color Blinking
+    <color name="teal_700">#d40a62</color>
+    <color name="black">#000000</color>
+    <color name="white">#FFFFFF</color>
+    <color name="light_pink">#FFC8DF</color>
+    <color name="black_text">#000000</color>
+    <color name="white_text">#FFFFFF</color>
+    <color name="pink">#d40a62</color>
+    <color name="placeholder">#4C4C4C</color>
+    <color name="darkpink">#84044f</color>
+</resources>

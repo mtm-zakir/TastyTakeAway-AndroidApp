@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    tools:context=".DashboardActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:background="@color/pink"
+        android:id="@+id/Categories"
+        android:text="Categories"
+        android:fontFamily="@font/handlee"
+        android:textColor="@color/white_text"
+        android:textStyle="bold"
+        android:textSize="36sp"
+        android:gravity="center_horizontal"
+        android:layout_height="45dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:background="@color/pink"
+        android:id="@+id/Select"
+        android:text="Select Your Favourite Food"
+        android:layout_below="@+id/Categories"
+        android:fontFamily="@font/handlee"
+        android:textStyle="bold"
+        android:textColor="@color/white_text"
+        android:textSize="18sp"
+        android:gravity="center_horizontal"
+        android:layout_height="25dp"/>
+
+    <ImageButton
+        android:id="@+id/notificationButton"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="20dp"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/circle_notifications"
+        android:background="@color/pink"
+        app:tint="@color/white_text"
+        android:layout_alignParentRight="true"/>
+
+    <ImageButton
+        android:id="@+id/profileButton"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/account_circle"
+        app:tint="@color/white_text"
+        android:background="@color/pink" />
+
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Select"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:paddingBottom="20dp" />
+
+</RelativeLayout>

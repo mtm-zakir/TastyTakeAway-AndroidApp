@@ -1,0 +1,220 @@
+[
+    {
+      "name":"Kottu",
+      "delivery": "Available",
+      "items": "CHEESE | BEEF | MUTTON | MIXED",
+      "delivery_charge": 100,
+      "image":"https://i.ibb.co/FX0SbHd/kottu.png",
+
+      "menus": [
+        {
+          "name": "Cheese Kottu",
+          "rating": "★★★",
+          "price": 900,
+          "url": "https://i.ibb.co/FX0SbHd/kottu.png"
+        },
+        {
+          "name": "Chicken Kottu",
+          "rating": "★★★★★",
+          "price": 800,
+          "url": "https://i.ibb.co/FX0SbHd/kottu.png"
+        },
+        {
+          "name": "Beef Kottu",
+          "rating": "★★★",
+          "price": 800,
+          "url": "https://i.ibb.co/FX0SbHd/kottu.png"
+        },
+        {
+          "name": "Mixed Kottu",
+          "rating": "★★★",
+          "price": 800,
+          "url": "https://i.ibb.co/FX0SbHd/kottu.png"
+        }
+      ]
+    },
+  {
+    "name":"Burger",
+    "delivery": "Available",
+    "items": "VEGGIE | CHICKEN | BEEF | CHEESE | FISH | EGG",
+    "delivery_charge": 100,
+    "image":"https://i.ibb.co/WxfJx1m/burger.png",
+
+    "menus": [
+      {
+        "name": "Veggie Burger",
+        "rating": "★★★",
+        "price": 200,
+        "url": "https://i.ibb.co/WxfJx1m/burger.png"
+      },
+      {
+        "name": "Chicken Burger",
+        "rating": "★★★",
+        "price": 300,
+        "url": "https://i.ibb.co/WxfJx1m/burger.png"
+      },
+      {
+        "name": "Beef Burger",
+        "rating": "★★★",
+        "price": 250,
+        "url": "https://i.ibb.co/WxfJx1m/burger.png"
+      },
+      {
+        "name": "Cheese Burger",
+        "rating": "★★★",
+        "price": 250,
+        "url": "https://i.ibb.co/WxfJx1m/burger.png"
+      },
+      {
+        "name": "Fish Burger",
+        "rating": "★★★",
+        "price": 250,
+        "url": "https://i.ibb.co/WxfJx1m/burger.png"
+      },
+      {
+        "name": "Egg Burger",
+        "rating": "★★★",
+        "price": 200,
+        "url": "https://i.ibb.co/WxfJx1m/burger.png"
+      }
+      ]
+    },
+  {
+    "name":"Noodles",
+    "delivery": "Available",
+    "items": "CHICKEN | CHINESE | MIXED | BEEF | SPICY | DEVILLED",
+    "delivery_charge": 100,
+    "image":"https://i.ibb.co/P90G5yB/noodles.png",
+
+    "menus": [
+      {
+        "name": "Chicken Noodles",
+        "rating": "★★★",
+        "price": 350,
+        "url": "https://i.ibb.co/P90G5yB/noodles.png"
+      },
+      {
+        "name": "Chinese Noodles",
+        "rating": "★★★",
+        "price": 500,
+        "url": "https://i.ibb.co/P90G5yB/noodles.png"
+      },
+      {
+        "name": "Mixed Noodles",
+        "rating": "★★★",
+        "price": 350,
+        "url": "https://i.ibb.co/P90G5yB/noodles.png"
+      },
+      {
+        "name": "Beef Noodles",
+        "rating": "★★★",
+        "price": 300,
+        "url": "https://i.ibb.co/P90G5yB/noodles.png"
+      },
+      {
+        "name": "Spicy Noodles",
+        "rating": "★★★",
+        "price": 300,
+        "url": "https://i.ibb.co/P90G5yB/noodles.png"
+      },
+      {
+        "name": "Devilled Noodles",
+        "rating": "★★★",
+        "price": 300,
+        "url": "https://i.ibb.co/P90G5yB/noodles.png"
+      }
+    ]
+  },
+  {
+    "name":"Pizza",
+    "delivery": "Available",
+    "items": "CHEESE | CHICAGO | VEGGIE | CHICKEN | SALMON | CHILLI",
+    "delivery_charge": 100,
+    "image":"https://i.ibb.co/ry5gYf8/pizza.png",
+
+    "menus": [
+      {
+        "name": "Cheese Pizza",
+        "rating": "★★★",
+        "price": 1500,
+        "url": "https://i.ibb.co/ry5gYf8/pizza.png"
+      },
+      {
+        "name": "Chicago Pizza",
+        "rating": "★★★",
+        "price": 1500,
+        "url": "https://i.ibb.co/ry5gYf8/pizza.png"
+      },
+      {
+        "name": "Veggie Pizza",
+        "rating": "★★★",
+        "price": 1200,
+        "url": "https://i.ibb.co/ry5gYf8/pizza.png"
+      },
+      {
+        "name": "Chicken Pizza",
+        "rating": "★★★",
+        "price": 1500,
+        "url": "https://i.ibb.co/ry5gYf8/pizza.png"
+      },
+      {
+        "name": "Salmon Pizza",
+        "rating": "★★★",
+        "price": 1400,
+        "url": "https://i.ibb.co/ry5gYf8/pizza.png"
+      },
+      {
+        "name": "Chilli Pizza",
+        "rating": "★★★",
+        "price": 1600,
+        "url": "https://i.ibb.co/ry5gYf8/pizza.png"
+      }
+    ]
+  },
+  {
+    "name":"Rice",
+    "delivery": "Available",
+    "items": "CHICKEN | BEEF | MONGOLIAN | BIRYANI | FRIED | EGG",
+    "delivery_charge": 100,
+    "image":"https://i.ibb.co/Rj26Mfg/rice.png",
+
+    "menus": [
+      {
+        "name": "Chicken Rice",
+        "rating": "★★★",
+        "price": 700,
+        "url": "https://i.ibb.co/Rj26Mfg/rice.png"
+      },
+      {
+        "name": "Beef Rice",
+        "rating": "★★★",
+        "price": 800,
+        "url": "https://i.ibb.co/Rj26Mfg/rice.png"
+      },
+      {
+        "name": "Mongolian Rice",
+        "rating": "★★★",
+        "price": 800,
+        "url": "https://i.ibb.co/Rj26Mfg/rice.png"
+      },
+      {
+        "name": "Biryani Rice",
+        "rating": "★★★",
+        "price": 1200,
+        "url": "https://i.ibb.co/Rj26Mfg/rice.png"
+      },
+      {
+        "name": "Fried Rice",
+        "rating": "★★★",
+        "price": 600,
+        "url": "https://i.ibb.co/Rj26Mfg/rice.png"
+      },
+      {
+        "name": "Egg Rice",
+        "rating": "★★★",
+        "price": 600,
+        "url": "https://i.ibb.co/Rj26Mfg/rice.png"
+      }
+    ]
+  }
+]

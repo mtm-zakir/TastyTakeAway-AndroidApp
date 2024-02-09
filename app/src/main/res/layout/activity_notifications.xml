@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    tools:context=".NotificationsActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:background="@color/pink"
+        android:id="@+id/Notifications"
+        android:text="Notifications"
+        android:fontFamily="@font/handlee"
+        android:textColor="@color/white_text"
+        android:textStyle="bold"
+        android:textSize="36sp"
+        android:gravity="center_horizontal"
+        android:layout_height="45dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:fontFamily="@font/comme_regular"
+        android:gravity="center"
+        android:text="No New Notifications"
+        android:textColor="@color/pink"
+        android:textSize="20dp" />
+
+
+</RelativeLayout>

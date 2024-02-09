@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="@drawable/p3"
+    tools:context=".RegisterActivity">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:padding="20dp"
+        tools:ignore="MissingConstraints">
+
+        <TextView
+            android:id="@+id/nameShop"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="@font/kaushan_script"
+            android:text=" TASTY TAKE AWAY "
+            android:textColor="@color/pink"
+            android:textSize="34sp"
+            android:textStyle="bold"
+            android:layout_marginTop="20dp"/>
+
+        <TextView
+            android:id="@+id/nameCreate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Create New Account"
+            android:fontFamily="@font/handlee"
+            android:textStyle="bold"
+            android:textColor="@color/black_text"
+            android:textSize="22sp" />
+
+        <VideoView
+            android:id="@+id/videoView"
+            android:layout_width="274dp"
+            android:layout_height="211dp"
+            android:layout_gravity="center"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="10dp" />
+
+        <EditText
+            android:id="@+id/userNameEditText"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:background="@drawable/input_bg"
+            android:gravity="center"
+            android:textColorHint="@color/placeholder"
+            android:textColor="@color/pink"
+            android:textSize="20sp"
+            android:fontFamily="@font/comme_regular"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:inputType="textPersonName"
+            android:hint="Enter Your User Name"/>
+
+        <EditText
+            android:id="@+id/emailEditText"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:background="@drawable/input_bg"
+            android:gravity="center"
+            android:textSize="20sp"
+            android:fontFamily="@font/comme_regular"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:textColorHint="@color/placeholder"
+            android:textColor="@color/pink"
+            android:hint="Enter Your Email"
+            android:inputType="textEmailAddress" />
+
+        <EditText
+            android:id="@+id/phoneNumberEditText"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:background="@drawable/input_bg"
+            android:textColorHint="@color/placeholder"
+            android:textColor="@color/pink"
+            android:gravity="center"
+            android:textSize="20sp"
+            android:fontFamily="@font/comme_regular"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:hint="Enter Phone Your Number"
+            android:inputType="phone" />
+
+        <EditText
+            android:id="@+id/passwordEditText"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:textColorHint="@color/placeholder"
+            android:textColor="@color/pink"
+            android:background="@drawable/input_bg"
+            android:gravity="center"
+            android:textSize="20sp"
+            android:fontFamily="@font/comme_regular"
+            android:hint="Enter Your Password"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:inputType="textPassword" />
+
+        <EditText
+            android:id="@+id/rePasswordEditText"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:textColorHint="@color/placeholder"
+            android:textColor="@color/pink"
+            android:layout_height="52dp"
+            android:background="@drawable/input_bg"
+            android:gravity="center"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:textSize="20sp"
+            android:fontFamily="@font/comme_regular"
+            android:hint="Enter Your Password Again "
+            android:inputType="textPassword" />
+
+    </LinearLayout>
+    <Button
+        android:id="@+id/registerButton"
+        android:layout_width="240dp"
+        android:layout_height="54dp"
+        android:background="@drawable/main_button"
+        android:text="REGISTER NOW"
+        android:textSize="20sp"
+        android:layout_gravity="center"
+        android:fontFamily="@font/comme_bold"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="20dp"
+        android:layout_alignParentBottom= "true"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
